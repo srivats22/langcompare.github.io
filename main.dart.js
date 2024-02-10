@@ -94369,9 +94369,9 @@ A.mT(s,s,!0,s,new A.aqQ(),r,s,!0,t.z)},
 oh(){var s=0,r=A.Q(t.z),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8
 var $async$oh=A.R(function(a9,b0){if(a9===1){p=b0
 s=q}while(true)switch(s){case 0:o.a3(new A.aqF(o))
-s=o.ay==="Google"?2:4
+s=o.ay==="Google"?2:3
 break
-case 2:q=6
+case 2:q=5
 d=A.e8(u.W+o.ch,0,null)
 c=t.N
 b=A.ai(["Content-type","application/json"],c,c)
@@ -94382,35 +94382,35 @@ a2=t.m0
 a3=t.xW
 a4=t.Ud
 a5=t.pQ
-s=9
+s=8
 return A.U(A.Jt(d,B.av.ow(A.ai(["contents",A.a([A.ai(["parts",A.a([A.ai(["text",u.O+a+".\n              Explain what "+a1+u.N+a1+u.q],c,c)],a2)],c,a3)],a4)],c,a5),null),b),$async$oh)
-case 9:n=b0
+case 8:n=b0
 b=A.e8(u.W+o.ch,0,null)
 a1=A.ai(["Content-type","application/json"],c,c)
 a=o.r
 a0=a0.a.a
-s=10
+s=9
 return A.U(A.Jt(b,B.av.ow(A.ai(["contents",A.a([A.ai(["parts",A.a([A.ai(["text",u.O+a+".\n              Explain what "+a0+u.N+a0+u.q],c,c)],a2)],c,a3)],a4)],c,a5),null),a1),$async$oh)
-case 10:m=b0
+case 9:m=b0
 if(n.b===200&&m.b===200){d=n
 l=B.av.op(0,A.Jk(A.J9(d.e).c.a.i(0,"charset")).e6(0,d.w),null)
 d=m
 k=B.av.op(0,A.Jk(A.J9(d.e).c.a.i(0,"charset")).e6(0,d.w),null)
 if(o.w.length!==0&&o.x.length!==0)o.a3(new A.aqG(o))
 o.a3(new A.aqH(o,l,k))}q=1
-s=8
+s=7
 break
-case 6:q=5
+case 5:q=4
 a7=p
 j=A.ag(a7)
 o.rX(J.dP(j))
-s=8
+s=7
 break
-case 5:s=1
+case 4:s=1
 break
-case 8:s=3
+case 7:case 3:s=o.ay==="Open AI"?10:11
 break
-case 4:q=12
+case 10:q=13
 d=A.e8(u.U,0,null)
 c=t.N
 b=A.ai(["Content-type","application/json","authorization","Bearer "+o.ch],c,c)
@@ -94419,33 +94419,33 @@ a0=o.d
 a1=a0.a.a
 a2=t.m0
 a3=t.K
-s=15
+s=16
 return A.U(A.Jt(d,B.av.ow(A.ai(["model","gpt-3.5-turbo","messages",A.a([A.ai(["role","system","content",u.O+a+".\n              Explain what "+a1+u.N+a1+u.q],c,c)],a2)],c,a3),null),b),$async$oh)
-case 15:i=b0
+case 16:i=b0
 b=A.e8(u.U,0,null)
 a1=A.ai(["Content-type","application/json","authorization","Bearer "+o.ch],c,c)
 a=o.f
 a0=a0.a.a
-s=16
+s=17
 return A.U(A.Jt(b,B.av.ow(A.ai(["model","gpt-3.5-turbo","messages",A.a([A.ai(["role","system","content",u.O+a+".\n              Explain what "+a0+u.N+a0+u.q],c,c)],a2)],c,a3),null),a1),$async$oh)
-case 16:h=b0
+case 17:h=b0
 if(i.b===200&&h.b===200){d=i
 g=B.av.op(0,A.Jk(A.J9(d.e).c.a.i(0,"charset")).e6(0,d.w),null)
 d=h
 f=B.av.op(0,A.Jk(A.J9(d.e).c.a.i(0,"charset")).e6(0,d.w),null)
 if(o.w.length!==0&&o.x.length!==0)o.a3(new A.aqI(o))
 o.a3(new A.aqJ(o,g,f))}q=1
-s=14
+s=15
 break
-case 12:q=11
+case 13:q=12
 a8=p
 e=A.ag(a8)
 o.rX(J.dP(e))
-s=14
+s=15
 break
-case 11:s=1
+case 12:s=1
 break
-case 14:case 3:return A.O(null,r)
+case 15:case 11:return A.O(null,r)
 case 1:return A.N(p,r)}})
 return A.P($async$oh,r)},
 F(a){var s,r,q,p,o=this,n=null,m=A.bJ(u.t,n,n,n,A.G(a).p3.e,B.b7,n),l=A.aka(!0,B.c8,!1,n,!0,B.O,n,A.aE1(),o.d,n,n,n,n,2,A.Nn(n,new A.he(4,A.tj(50),B.dY),n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,"Map Object Syntax",n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.b6(B.nv,A.Af(B.fX,new A.aqv(o,a)),n),n,n,n,n),B.ae,!0,n,!0,n,!1,n,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,n,!1,n,!0,n,B.dl,n,n,B.ci,B.bO,n,n,n,n,n,n,B.aL,n,B.i5,n,n,n,n),k=o.f,j=$.Jp,i=A.W(j).h("a3<1,ex<l>>"),h=t.N
@@ -94673,9 +94673,9 @@ A.WF.prototype={
 rZ(){var s=0,r=A.Q(t.z),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
 var $async$rZ=A.R(function(a1,a2){if(a1===1){p=a2
 s=q}while(true)switch(s){case 0:b=o.a
-s=b.f==="Google"?2:4
+s=b.f==="Google"?2:3
 break
-case 2:q=6
+case 2:q=5
 b=A.e8(u.W+b.r,0,null)
 h=t.N
 g=A.ai(["Content-type","application/json"],h,h)
@@ -94683,25 +94683,25 @@ f=o.a
 e=f.d
 d=f.e
 f=f.c
-s=9
+s=8
 return A.U(A.Jt(b,B.av.ow(A.ai(["contents",A.a([A.ai(["parts",A.a([A.ai(["text",u.O+e+" and "+d+".\n              Explain what "+f+u.N+f+"\n              in both "+e+" and "+d+u.q],h,h)],t.m0)],h,t.xW)],t.Ud)],h,t.pQ),null),g),$async$rZ)
-case 9:n=a2
+case 8:n=a2
 if(n.b===200){b=n
 m=B.av.op(0,A.Jk(A.J9(b.e).c.a.i(0,"charset")).e6(0,b.w),null)
 o.a3(new A.at4(o,m))}q=1
-s=8
+s=7
 break
-case 6:q=5
+case 5:q=4
 a=p
 l=A.ag(a)
 o.rX(J.dP(l))
-s=8
+s=7
 break
-case 5:s=1
+case 4:s=1
 break
-case 8:s=3
+case 7:case 3:s=o.a.f==="Open AI"?9:10
 break
-case 4:q=11
+case 9:q=12
 b=A.e8(u.U,0,null)
 h=t.N
 g=A.ai(["Content-type","application/json","authorization","Bearer "+o.a.r],h,h)
@@ -94709,23 +94709,23 @@ f=o.a
 e=f.d
 d=f.e
 f=f.c
-s=14
+s=15
 return A.U(A.Jt(b,B.av.ow(A.ai(["model","gpt-3.5-turbo","messages",A.a([A.ai(["role","system","content",u.O+e+" and "+d+".\n              Explain what "+f+u.N+f+"\n              in both "+e+" and "+d+u.q],h,h)],t.m0)],h,t.K),null),g),$async$rZ)
-case 14:k=a2
+case 15:k=a2
 if(k.b===200){b=k
 j=B.av.op(0,A.Jk(A.J9(b.e).c.a.i(0,"charset")).e6(0,b.w),null)
 o.a3(new A.at5(o,j))}q=1
-s=13
+s=14
 break
-case 11:q=10
+case 12:q=11
 a0=p
 i=A.ag(a0)
 o.rX(J.dP(i))
-s=13
+s=14
 break
-case 10:s=1
+case 11:s=1
 break
-case 13:case 3:return A.O(null,r)
+case 14:case 10:return A.O(null,r)
 case 1:return A.N(p,r)}})
 return A.P($async$rZ,r)},
 av(){this.aM()
